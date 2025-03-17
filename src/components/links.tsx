@@ -24,7 +24,7 @@ export default function Links() {
   const links: { icon: IconType; href: string }[] = [
     {
       icon: SiGmail,
-      href: 'lermalizarraga@gmail.com',
+      href: 'mailto:lermalizarraga@gmail.com',
     },
     {
       icon: SiGithub,
