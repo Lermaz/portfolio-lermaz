@@ -1,0 +1,65 @@
+// import PROJECTS from '@/data/projects';
+// import { AspectRatio } from '@/components/ui/aspect-ratio';
+// import Image from 'next/image';
+
+export default function Work() {
+  return (
+    <div>
+      <h1 className="mb-8 text-2xl font-heading sm:text-4xl">Work</h1>
+      <div className="mb-10 text-base sm:text-lg">
+        <p>
+          Some projects I&apos;ve worked on are subject to confidentiality
+          agreements, so I can&apos;t share specific details. However, I&apos;m
+          available to discuss my experience and approach to development in a
+          conversation.
+        </p>
+      </div>
+
+      {/* <div className="flex flex-col gap-5">
+        {PROJECTS.map((project, id) => {
+          return (
+            <div
+              className="border-border dark:border-darkBorder shadow-light dark:shadow-dark rounded-base border-2 bg-main p-4 sm:p-5"
+              key={id}>
+              <AspectRatio
+                className="border-border dark:border-darkBorder shadow-light dark:shadow-dark !-bottom-[2px] rounded-base border-2"
+                ratio={71 / 26}>
+                <Image
+                  className="h-full w-full rounded-base object-cover"
+                  src={project.previewImage}
+                  alt={project.name}
+                  loading="lazy"
+                  width={1000}
+                  height={365}
+                />
+              </AspectRatio>
+
+              <div className="text-text mt-5 font-base">
+                <h2 className="text-xl font-heading sm:text-2xl">
+                  {project.name}
+                </h2>
+
+                <p className="mt-2">{project.description}</p>
+
+                <div className="mt-8 grid grid-cols-2 gap-5">
+                  <a
+                    className="border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none"
+                    href={project.liveLink}
+                    target="_blank">
+                    Visit
+                  </a>
+                  <a
+                    className="border-border dark:border-darkBorder dark:bg-secondaryBlack dark:text-darkText shadow-light dark:shadow-dark cursor-pointer rounded-base border-2 bg-white px-4 py-2 text-center text-sm font-base transition-all hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none sm:text-base dark:hover:shadow-none"
+                    href={project.repoUrl}
+                    target="_blank">
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div> */}
+    </div>
+  );
+}
