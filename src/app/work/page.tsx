@@ -34,7 +34,7 @@ export default function Work() {
                 />
               </AspectRatio>
 
-              <div className="text-text mt-5 font-base">
+              <div className="text-main-foreground mt-5 font-base">
                 <h2 className="text-xl font-heading sm:text-2xl">
                   {project.name}
                 </h2>

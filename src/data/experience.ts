@@ -9,7 +9,12 @@ const PAST_ROLES: {
     company: 'Point B + Lumston',
     role: 'Senior Full Stack Developer',
     description:
-      'Web development with Next.js, Angular, and Tailwind CSS. Front-End with admin dashboards and landing pages. Backend development with Node.js, Express, Nest.js with monolith and microservices and Adonis.js, using database like MySQL, MongoDB and DynamoDB. Also working projects with Amazon Lex V2 integrations with Lambdas with Python and Node.js, API Gateways and S3.',
+      `Web development using Next.js, Angular, and Tailwind CSS, building modern landing pages and complex admin dashboards.
+      
+      Backend development with Node.js, Express, NestJS, Django, FastAPI, and AdonisJS, working with both monolithic and microservices architectures.
+      Experience with relational and NoSQL databases, including MySQL, PostgreSQL, MongoDB, and DynamoDB.
+
+      Cloud-based projects on AWS, integrating Amazon Lex V2 with Lambda (Python & Node.js), API Gateway, S3, ECS, RDS, EC2, and OpenSearch. Infrastructure provisioning and cloud deployments using Terraform, enabling automated, scalable, and production-ready environments.`,
     startDate: 'August 2021',
     endDate: 'Now',
   },

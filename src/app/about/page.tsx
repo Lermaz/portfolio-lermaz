@@ -8,11 +8,8 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          Hey there! 👋 I&apos;m Isaac Lerma, a passionate Full Stack Developer
-          who thrives on building seamless user experiences and scalable
-          back-end solutions. With a strong foundation in JavaScript,
-          TypeScript, Kotlin, and Python, I love crafting clean, efficient code
-          that brings ideas to life.
+        Hi, I’m Isaac Lerma, a Full-Stack Developer focused on building modern, scalable applications.
+        I combine strong front-end skills with solid back-end engineering, working with JavaScript, TypeScript, Kotlin, and Python to deliver clean and maintainable solutions. I also design and deploy cloud-ready systems using AWS, Terraform, and Vercel, ensuring performance, reliability, and scalability from day one.
         </p>
       </div>
 

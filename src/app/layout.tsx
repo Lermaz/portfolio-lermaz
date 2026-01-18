@@ -24,7 +24,7 @@ export default function RootLayout({
         <body className={montserrat.className}>
           <ThemeProvider attribute="class" disableTransitionOnChange>
             <Nav />
-            <div className="text-text dark:text-darkText mx-auto w-[750px] max-w-full px-5 pb-10 pt-28">
+            <div className="text-foreground mx-auto w-[750px] max-w-full px-5 pb-10 pt-28">
               {children}
               <SpeedInsights />
             </div>

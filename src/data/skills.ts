@@ -1,48 +1,56 @@
 import {
   type IconType,
-  SiAmazonwebservices,
+  SiAndroidstudio,
   SiAngular,
   SiAstro,
+  SiClaude,
+  SiDjango,
+  SiDocker,
   SiDrizzle,
   SiExpo,
+  SiFastapi,
   SiGit,
-  SiGo,
+  SiGooglecloud,
+  SiJavascript,
+  SiKotlin,
   SiMongodb,
   SiMysql,
+  SiN8n,
   SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
-  SiOpenai,
   SiPostgresql,
+  SiPrisma,
+  SiPython,
   SiPytorch,
   SiReact,
+  SiRedis,
   SiShadcnui,
+  SiSqlite,
   SiStripe,
   SiSupabase,
   SiTailwindcss,
-  SiTiktok,
-  SiTrpc,
+  SiTerraform,
   SiTypescript,
-  SiV0,
   SiVercel,
 } from '@icons-pack/react-simple-icons';
+import { Aws, Lambda } from '@lobehub/icons';
 
-const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
+const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
   [
     {
       field: 'Frontend',
       skills: [
-        { skill: 'typescript', icon: SiTypescript },
-        { skill: 'nextjs', icon: SiNextdotjs },
-        { skill: 'react', icon: SiReact },
-        { skill: 'tailwind', icon: SiTailwindcss },
-        { skill: 'astro', icon: SiAstro },
+        { skill: 'Nextjs', icon: SiNextdotjs },
+        { skill: 'React', icon: SiReact },
+        { skill: 'Tailwind', icon: SiTailwindcss },
+        { skill: 'Astro', icon: SiAstro },
         {
-          skill: 'shadcn/ui',
+          skill: 'Shadcn/ui',
           icon: SiShadcnui,
         },
         {
-          skill: 'angular',
+          skill: 'Angular',
           icon: SiAngular,
         },
       ],
@@ -51,54 +59,98 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
       field: 'Backend',
       skills: [
         {
-          skill: 'nodejs',
+          skill: 'Nodejs',
           icon: SiNodedotjs,
         },
         {
-          skill: 'nestjs',
+          skill: 'Nestjs',
           icon: SiNestjs,
         },
         {
-          skill: 'supabase',
+          skill: 'Lambda',
+          icon: Lambda,
+        },
+        {
+          skill: 'Django',
+          icon: SiDjango,
+        },
+        {
+          skill: 'Fastapi',
+          icon: SiFastapi,
+        },
+        {
+          skill: 'Supabase',
           icon: SiSupabase,
         },
-        {
-          skill: 'trpc',
-          icon: SiTrpc,
+        { 
+          skill: 'Drizzle',
+          icon: SiDrizzle
         },
         {
-          skill: 'postgresql',
+          skill: 'Prisma',
+          icon: SiPrisma,
+        },
+        {
+          skill: 'Redis',
+          icon: SiRedis,
+        }
+      ],
+    },
+    {
+      field: 'Databases',
+      skills: [
+        {
+          skill: 'Postgresql',
           icon: SiPostgresql,
         },
         {
-          skill: 'mongodb',
+          skill: 'Mongodb',
           icon: SiMongodb,
         },
         {
-          skill: 'mysql',
+          skill: 'MySQL',
           icon: SiMysql,
         },
-      ],
+        {
+          skill: 'Sqlite',
+          icon: SiSqlite,
+        }
+      ]
+    },
+    {
+      field: 'Cloud',
+      skills: [
+        { skill: 'AWS', icon: Aws },
+        { skill: 'Terraform', icon: SiTerraform },
+        { skill: 'Vercel', icon: SiVercel },
+        { skill: 'Google Cloud Platform', icon: SiGooglecloud },
+      ]
+    },
+    {
+      field: 'Language',
+      skills: [
+        { skill: 'Typescript', icon: SiTypescript },
+        { skill: 'Javascript', icon: SiJavascript },
+        { skill: 'Python', icon: SiPython },
+        { skill: 'Kotlin', icon: SiKotlin },
+      ]
     },
     {
       field: 'Other',
       skills: [
-        { skill: 'Vercel', icon: SiVercel },
-        { skill: 'AWS', icon: SiAmazonwebservices },
+        { skill: 'Expo', icon: SiExpo },
+        { skill: 'Android Studio', icon: SiAndroidstudio },
+        { skill: 'Docker', icon: SiDocker },
         { skill: 'Git', icon: SiGit },
-        { skill: 'Drizzle', icon: SiDrizzle },
-        { skill: 'ChatGPT', icon: SiOpenai },
-        { skill: 'V0', icon: SiV0 },
+        { skill: 'Claude Code', icon: SiClaude },
         { skill: 'Stripe', icon: SiStripe },
       ],
     },
     {
       field: "My next Tech's to learn",
       skills: [
-        { skill: 'Go', icon: SiGo },
         { skill: 'Pytorch', icon: SiPytorch },
-        { skill: 'Expo', icon: SiExpo },
-        { skill: 'Lynx', icon: SiTiktok },
+        { skill: 'n8n', icon: SiN8n },
       ],
     },
   ];
