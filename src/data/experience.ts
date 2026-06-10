@@ -8,44 +8,43 @@ const PAST_ROLES: {
   {
     company: 'Point B + Lumston',
     role: 'Senior Full Stack Developer',
-    description:
-      `Web development using Next.js, Angular, and Tailwind CSS, building modern landing pages and complex admin dashboards.
-      
-      Backend development with Node.js, Express, NestJS, Django, FastAPI, and AdonisJS, working with both monolithic and microservices architectures.
-      Experience with relational and NoSQL databases, including MySQL, PostgreSQL, MongoDB, and DynamoDB.
+    description: `- I increased development efficiency by 75% (as measured by the completion of weekly tasks) through the advanced use of AI tools such as Claude Code to automate coding and debugging tasks.
 
-      Cloud-based projects on AWS, integrating Amazon Lex V2 with Lambda (Python & Node.js), API Gateway, S3, ECS, RDS, EC2, and OpenSearch. Infrastructure provisioning and cloud deployments using Terraform, enabling automated, scalable, and production-ready environments.`,
+- Architected and delivered scalable web applications using TypeScript with Next.js, Angular, and Tailwind CSS for modern dashboards and landing pages, serving enterprise-level client workloads.
+
+- Built and maintained microservices and monolithic back-end systems using Node.js (Express, NestJS, AdonisJS) and Python (Django, FastAPI), integrating RESTful APIs and third-party services.
+
+- Designed and deployed cloud infrastructure on AWS using Lambda, ECS, EC2, RDS, S3, CloudFront, API Gateway, and OpenSearch; provisioned environments with Terraform for automated, production- ready deployments.
+
+- Developed conversational AI chatbots integrating Amazon Lex V2 with Lambda functions in both Python and Node.js, reducing manual support load for clients.
+
+- Implemented CI/CD pipelines with GitHub Actions, reducing deployment time and improving code quality through automated testing and linting workflows.
+
+- Collaborated with cross-functional teams across multiple time zones, consistently delivering clean, well-documented, and maintainable code on schedule.`,
     startDate: 'August 2021',
     endDate: 'Now',
   },
   {
     company: 'Geeklopers',
-    role: 'Full Stack & Mobile Developer',
-    description:
-      'Web development with Node.js, Laravel, Angular.js and Bootstrap. Also with Android Native development with Java & Kotlin.?',
+    role: 'Android & Full Stack Developer',
+    description: `- Developed dynamic and responsive web applications using Node.js, Laravel, Angular.js, and Bootstrap, handling both frontend UI and robust backend logic.
+
+- Built high-performance Android applications using Java and Kotlin with Android Native, delivering scalable and maintainable mobile solutions for diverse clients.`,
     startDate: 'March 2019',
     endDate: 'July 2021',
-  },
-  {
-    company: 'Troya Digital',
-    role: 'Web Developer (Freelance)',
-    description:
-      'Web development of landing pages with jQuery, Bootstrap and some animation libraries.',
-    startDate: 'October 2019',
-    endDate: 'April 2020',
   },
   {
     company: 'Forwxrd',
     role: 'Data Analyst',
     description:
-      'R Language, Plotly and ggplot usage, database making, marketing purposes.',
+      '- Performed data analysis and visualization using R (Plotly, ggplot2) for marketing intelligence and business decision-making; designed and maintained relational databases.',
     startDate: 'July 2018',
     endDate: 'January 2019',
   },
   {
-    company: 'Solemti',
+    company: 'SOLEMTI',
     role: 'Web Developer',
-    description: '',
+    description: `- Developed web interfaces and contributed to internal digital projects during early-career placement, establishing foundational full-stack development skills.`,
     startDate: 'September 2017',
     endDate: 'December 2017',
   },
