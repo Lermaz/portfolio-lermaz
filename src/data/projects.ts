@@ -1,8 +1,10 @@
 import {
   type IconType,
   SiDrizzle,
+  SiFastapi,
   SiNestjs,
   SiPostgresql,
+  SiPython,
   SiSqlite,
   SiTypescript,
 } from '@icons-pack/react-simple-icons';
@@ -38,6 +40,17 @@ const PROJECTS: Project[] = [
       { label: 'TypeScript', icon: SiTypescript },
       { label: 'Drizzle', icon: SiDrizzle },
       { label: 'PostgreSQL', icon: SiPostgresql },
+    ],
+  },
+  {
+    name: 'FastAPI Starter',
+    description:
+      'Production-style FastAPI baseline with JWT auth and refresh-token rotation, code-defined role permissions, videogame CRUD, Alembic migrations, admin bootstrap CLI, and hardened GitHub Actions CI (Ruff, pytest).',
+    repoUrl: 'https://github.com/Lermaz/fastapi-starter-ai',
+    tags: [
+      { label: 'FastAPI', icon: SiFastapi },
+      { label: 'Python', icon: SiPython },
+      { label: 'SQLAlchemy', icon: SiSqlite },
     ],
   },
 ];
