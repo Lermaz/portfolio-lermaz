@@ -1,5 +1,5 @@
 import PROJECTS from '@/data/projects';
-import { SiGithub, SiNestjs } from '@icons-pack/react-simple-icons';
+import { SiGithub } from '@icons-pack/react-simple-icons';
 
 const ARCHITECTURE_PREVIEW = `AppModule
 ├── CoreModule
@@ -19,7 +19,7 @@ export default function Projects() {
               <span className="font-heading text-2xl leading-none opacity-50">
                 {String(index + 1).padStart(2, '0')}
               </span>
-              <SiNestjs className="h-6 w-6 shrink-0" title="" />
+              <project.icon className="h-6 w-6 shrink-0" title={project.tags[0]?.label ?? ''} />
               <h2 className="font-heading text-lg sm:text-xl">{project.name}</h2>
             </div>
             {project.badge ? (

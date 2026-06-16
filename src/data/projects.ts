@@ -13,6 +13,7 @@ export type Project = {
   name: string;
   description: string;
   repoUrl: string;
+  icon: IconType;
   badge?: string;
   tags: { label: string; icon: IconType }[];
 };
@@ -23,6 +24,7 @@ const PROJECTS: Project[] = [
     description:
       'Production-oriented modular monolith with enforced module boundaries, JWT auth, user-scoped todos, MikroORM migrations, and security hardening — plus dependency-cruiser checks in CI.',
     repoUrl: 'https://github.com/Lermaz/nestjs-starter-mono',
+    icon: SiNestjs,
     tags: [
       { label: 'NestJS', icon: SiNestjs },
       { label: 'TypeScript', icon: SiTypescript },
@@ -35,6 +37,7 @@ const PROJECTS: Project[] = [
       'Same clean-architecture foundation as the MikroORM starter, migrated to Drizzle ORM with PostgreSQL — versioned SQL migrations, PGlite e2e tests, and Docker Compose ready.',
     repoUrl: 'https://github.com/Lermaz/nestjs-starter-mono-with-drizzle',
     badge: 'Drizzle variant',
+    icon: SiNestjs,
     tags: [
       { label: 'NestJS', icon: SiNestjs },
       { label: 'TypeScript', icon: SiTypescript },
@@ -47,6 +50,7 @@ const PROJECTS: Project[] = [
     description:
       'Production-style FastAPI baseline with JWT auth and refresh-token rotation, code-defined role permissions, videogame CRUD, Alembic migrations, admin bootstrap CLI, and hardened GitHub Actions CI (Ruff, pytest).',
     repoUrl: 'https://github.com/Lermaz/fastapi-starter-ai',
+    icon: SiFastapi,
     tags: [
       { label: 'FastAPI', icon: SiFastapi },
       { label: 'Python', icon: SiPython },
