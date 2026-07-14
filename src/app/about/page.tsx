@@ -9,8 +9,7 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-        Hi, I’m Isaac Lerma, a Full-Stack Developer focused on building modern, scalable applications.
-        I combine strong front-end skills with solid back-end engineering, working with JavaScript, TypeScript, Kotlin, and Python to deliver clean and maintainable solutions. I also design and deploy cloud-ready systems using AWS, Terraform, and Vercel, ensuring performance, reliability, and scalability from day one.
+        Hi, I’m Isaac Lerma, a Senior Full-Stack Engineer with 7+ years building scalable web applications, cloud-native systems, and mobile solutions for enterprise clients. Deep expertise across TypeScript/Node.js, Python, and AWS infrastructure (Lambda, ECS, RDS, OpenSearch), with hands-on experience integrating LLM-based tools and conversational AI into production workflows. Comfortable owning projects end-to-end across cross-functional, multi-timezone teams.
         </p>
       </div>
 

@@ -2,8 +2,10 @@ import {
   type IconType,
   SiAndroidstudio,
   SiAngular,
+  SiAnthropic,
   SiAstro,
   SiClaude,
+  SiCursor,
   SiDjango,
   SiDocker,
   SiDrizzle,
@@ -13,16 +15,15 @@ import {
   SiGooglecloud,
   SiJavascript,
   SiKotlin,
+  SiModelcontextprotocol,
   SiMongodb,
   SiMysql,
-  SiN8n,
   SiNestjs,
   SiNextdotjs,
   SiNodedotjs,
   SiPostgresql,
   SiPrisma,
   SiPython,
-  SiPytorch,
   SiReact,
   SiRedis,
   SiShadcnui,
@@ -36,7 +37,7 @@ import {
 } from '@icons-pack/react-simple-icons';
 import { Aws, Lambda } from '@lobehub/icons';
 
-const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
+const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
   [
     {
       field: 'Frontend',
@@ -82,9 +83,9 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
           skill: 'Supabase',
           icon: SiSupabase,
         },
-        { 
+        {
           skill: 'Drizzle',
-          icon: SiDrizzle
+          icon: SiDrizzle,
         },
         {
           skill: 'Prisma',
@@ -93,7 +94,7 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
         {
           skill: 'Redis',
           icon: SiRedis,
-        }
+        },
       ],
     },
     {
@@ -114,8 +115,8 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
         {
           skill: 'Sqlite',
           icon: SiSqlite,
-        }
-      ]
+        },
+      ],
     },
     {
       field: 'Cloud',
@@ -124,7 +125,7 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
         { skill: 'Terraform', icon: SiTerraform },
         { skill: 'Vercel', icon: SiVercel },
         { skill: 'Google Cloud Platform', icon: SiGooglecloud },
-      ]
+      ],
     },
     {
       field: 'Language',
@@ -133,7 +134,16 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
         { skill: 'Javascript', icon: SiJavascript },
         { skill: 'Python', icon: SiPython },
         { skill: 'Kotlin', icon: SiKotlin },
-      ]
+      ],
+    },
+    {
+      field: 'AI',
+      skills: [
+        { skill: 'Claude Code', icon: SiClaude },
+        { skill: 'Anthropic Claude API', icon: SiAnthropic },
+        { skill: 'Cursor', icon: SiCursor },
+        { skill: 'Model Context Protocol', icon: SiModelcontextprotocol },
+      ],
     },
     {
       field: 'Other',
@@ -142,15 +152,7 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType}[] }[] =
         { skill: 'Android Studio', icon: SiAndroidstudio },
         { skill: 'Docker', icon: SiDocker },
         { skill: 'Git', icon: SiGit },
-        { skill: 'Claude Code', icon: SiClaude },
         { skill: 'Stripe', icon: SiStripe },
-      ],
-    },
-    {
-      field: "My next Tech's to learn",
-      skills: [
-        { skill: 'Pytorch', icon: SiPytorch },
-        { skill: 'n8n', icon: SiN8n },
       ],
     },
   ];

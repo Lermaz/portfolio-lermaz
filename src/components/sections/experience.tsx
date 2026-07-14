@@ -14,6 +14,7 @@ export default function Experience() {
 
             <p className="mb-4 mt-0.5 text-sm">
               {role.startDate} - {role.endDate}
+              {role.location ? ` · ${role.location}` : null}
             </p>
             <p className="whitespace-pre-line">{role.description}</p>
           </div>
