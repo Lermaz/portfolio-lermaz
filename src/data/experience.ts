@@ -4,10 +4,12 @@ const PAST_ROLES: {
   description: string;
   startDate: string;
   endDate: string;
+  location?: string;
 }[] = [
   {
     company: 'Point B + Lumston',
     role: 'Senior Full Stack Developer',
+    location: 'Zapopan, Jalisco (Remote)',
     description: `- I increased development efficiency by 75% (as measured by the completion of weekly tasks) through the advanced use of AI tools such as Claude Code to automate coding and debugging tasks.
 
 - Architected and delivered scalable web applications using TypeScript with Next.js, Angular, and Tailwind CSS for modern dashboards and landing pages, serving enterprise-level client workloads.
@@ -27,6 +29,7 @@ const PAST_ROLES: {
   {
     company: 'Geeklopers',
     role: 'Android & Full Stack Developer',
+    location: 'Culiacán, Sinaloa (Remote)',
     description: `- Developed dynamic and responsive web applications using Node.js, Laravel, Angular.js, and Bootstrap, handling both frontend UI and robust backend logic.
 
 - Built high-performance Android applications using Java and Kotlin with Android Native, delivering scalable and maintainable mobile solutions for diverse clients.`,
@@ -36,6 +39,7 @@ const PAST_ROLES: {
   {
     company: 'Forwxrd',
     role: 'Data Analyst',
+    location: 'Mazatlán, Sinaloa',
     description:
       '- Performed data analysis and visualization using R (Plotly, ggplot2) for marketing intelligence and business decision-making; designed and maintained relational databases.',
     startDate: 'July 2018',
@@ -44,6 +48,7 @@ const PAST_ROLES: {
   {
     company: 'SOLEMTI',
     role: 'Web Developer',
+    location: 'Mazatlán, Sinaloa',
     description: `- Developed web interfaces and contributed to internal digital projects during early-career placement, establishing foundational full-stack development skills.`,
     startDate: 'September 2017',
     endDate: 'December 2017',

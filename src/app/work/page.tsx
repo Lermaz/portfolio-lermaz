@@ -1,4 +1,5 @@
 import Projects from '@/components/sections/projects';
+import { OPEN_SOURCE, SELECTED_WORK } from '@/data/projects';
 
 export default function Work() {
   return (
@@ -13,9 +14,14 @@ export default function Work() {
         </p>
       </div>
 
+      <div className="mb-12">
+        <h2 className="mb-6 text-xl font-heading sm:text-2xl">Selected work</h2>
+        <Projects projects={SELECTED_WORK} />
+      </div>
+
       <div>
         <h2 className="mb-6 text-xl font-heading sm:text-2xl">Open source</h2>
-        <Projects />
+        <Projects projects={OPEN_SOURCE} showArchitecturePreview />
       </div>
     </div>
   );

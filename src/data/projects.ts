@@ -12,13 +12,28 @@ import {
 export type Project = {
   name: string;
   description: string;
-  repoUrl: string;
   icon: IconType;
   badge?: string;
+  repoUrl?: string;
+  liveUrl?: string;
   tags: { label: string; icon: IconType }[];
 };
 
-const PROJECTS: Project[] = [
+export const SELECTED_WORK: Project[] = [
+  {
+    name: 'Pigui.ai',
+    description:
+      'Backend engineer using FastAPI; integrated AI-driven features to power loyalty programs for restaurants and retail stores.',
+    liveUrl: 'https://pigui.ai',
+    icon: SiFastapi,
+    tags: [
+      { label: 'FastAPI', icon: SiFastapi },
+      { label: 'Python', icon: SiPython },
+    ],
+  },
+];
+
+export const OPEN_SOURCE: Project[] = [
   {
     name: 'NestJS Starter Mono',
     description:
@@ -58,5 +73,7 @@ const PROJECTS: Project[] = [
     ],
   },
 ];
+
+const PROJECTS: Project[] = [...SELECTED_WORK, ...OPEN_SOURCE];
 
 export default PROJECTS;
