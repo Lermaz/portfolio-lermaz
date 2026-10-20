@@ -17,11 +17,8 @@ import {
   SiGooglecloud,
   SiJavascript,
   SiKotlin,
-<<<<<<< HEAD
   SiKubernetes,
-=======
   SiModelcontextprotocol,
->>>>>>> 15b903d2500a1a4baba64536a68ecfdfb03e3cf7
   SiMongodb,
   SiMysql,
   SiNestjs,
@@ -103,13 +100,10 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
           skill: 'Redis',
           icon: SiRedis,
         },
-<<<<<<< HEAD
         {
           skill: 'Gin',
           icon: SiGin,
         },
-=======
->>>>>>> 15b903d2500a1a4baba64536a68ecfdfb03e3cf7
       ],
     },
     {
@@ -140,11 +134,8 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'Terraform', icon: SiTerraform },
         { skill: 'Vercel', icon: SiVercel },
         { skill: 'Google Cloud Platform', icon: SiGooglecloud },
-<<<<<<< HEAD
         { skill: 'Sentry', icon: SiSentry },
         { skill: 'SonarQube', icon: SiSonarqubecloud },
-=======
->>>>>>> 15b903d2500a1a4baba64536a68ecfdfb03e3cf7
       ],
     },
     {
@@ -154,9 +145,7 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'Javascript', icon: SiJavascript },
         { skill: 'Python', icon: SiPython },
         { skill: 'Kotlin', icon: SiKotlin },
-<<<<<<< HEAD
         { skill: 'Golang', icon: SiGo },
-=======
       ],
     },
     {
@@ -166,7 +155,6 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'Anthropic Claude API', icon: SiAnthropic },
         { skill: 'Cursor', icon: SiCursor },
         { skill: 'Model Context Protocol', icon: SiModelcontextprotocol },
->>>>>>> 15b903d2500a1a4baba64536a68ecfdfb03e3cf7
       ],
     },
     {
@@ -178,11 +166,6 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
         { skill: 'Docker', icon: SiDocker },
         { skill: 'Kubernetes', icon: SiKubernetes },
         { skill: 'Git', icon: SiGit },
-<<<<<<< HEAD
-        { skill: 'Claude Code', icon: SiClaude },
-        { skill: 'Cursor', icon: SiCursor },
-=======
->>>>>>> 15b903d2500a1a4baba64536a68ecfdfb03e3cf7
         { skill: 'Stripe', icon: SiStripe },
       ],
     },

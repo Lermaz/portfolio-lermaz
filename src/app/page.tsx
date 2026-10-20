@@ -30,11 +30,7 @@ export default function Home() {
 
       <a
         className="border-border shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none mt-10 inline-flex items-center gap-2 rounded-base border-2 bg-main px-5 py-2.5 text-main-foreground transition-all sm:text-lg"
-<<<<<<< HEAD
         href="/Isaac_Lerma_CV2026.pdf"
-=======
-        href="/Isaac_Lerma_CV_2026.pdf"
->>>>>>> 15b903d2500a1a4baba64536a68ecfdfb03e3cf7
         rel="noopener noreferrer"
         target="_blank">
         <FileText className="h-5 w-5 shrink-0" />
